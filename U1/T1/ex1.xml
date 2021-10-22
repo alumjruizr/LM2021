@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneo nombre="Wimbledon" fechainicio="17/03/2021" fechafin="31/03/2021">
+    <partidos>
+        <partido1 fecha="17/03/2021">
+            <jugadores jug1="Andrea Agassi" jug2="Gael Monfils"></jugadores>
+            <resultado set1="6-4" set2="6-3"></resultado>
+        </partido1>
+        <partido2 fecha="17/03/2021">
+            <jugadores jug3="Roger Federer" jug4="Andy Roddick"></jugadores>
+            <resultado set1="3-6" set2="6-2" set3="6-2"></resultado>
+        </partido2>
+        <partido3 fecha="18/03/2021">
+            <jugadores jug5="Juan Carlos Ferrero" jug6="Carlos Moyá"></jugadores>
+            <resultado set1="0-6" set2="0-6"></resultado>
+        </partido3>
+        <partido4 fecha="18/03/2021">
+            <jugadores jug7="Björn Borg" jug8="John McEnroe"></jugadores>
+            <resultado set1="7-5" set2="4-6" set3="6-2"></resultado>
+        </partido4>
+        <partido5 fecha="23/03/2021">
+            <jugadores jug1="Andrea Agassi" jug3="Roger Federer"></jugadores>
+            <resultado set1="6-2" set2="4-6" set3="6-2"></resultado>
+        </partido5>
+        <partido6 fecha="23/03/2021">
+            <jugadores jug6="Carlos Moyá" jug7="Björn Borg"></jugadores>
+            <resultado set1="6-4" set2="6-3"></resultado>
+        </partido6>
+        <partido7 fecha="26/03/2021">
+            <jugadores jug1="Andrea Agassi" jug6="Carlos Moyá"></jugadores>
+            <resultado set1="3-6" set2="6-2" set3="6-2"></resultado>
+        </partido7>
+        <partido8 fecha="26/03/2021">
+            <jugadores jug7="Björn Borg" jug3="Roger Federer"></jugadores>
+            <resultado set1="0-6" set2="0-6"></resultado>
+        </partido8>
+        <partido9 fecha="21/03/2021">
+            <jugadores juga1="Martina Navratilova" juga2="Monica Selles"></jugadores>
+            <resultado set1="7-5" set2="4-6" set3="6-2"></resultado>
+        </partido9>
+        <partido10 fecha="22/03/2021">
+            <jugadores juga3="María Sharapova" juga4="Selena Williams"></jugadores>
+            <resultado set1="6-2" set2="4-6" set3="6-2"></resultado>
+        </partido10>
+    </partidos>
+</torneo>

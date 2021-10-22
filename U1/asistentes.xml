@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <root xmlns:n="/home/jruizr/escritorio/XML/norte.xml"
+    xmlns:s="/home/jruizr/escritorio/XML/sur.xml"
+    xmlns:f="/home/jruizr/escritorio/XML/fondo.xml"
+    xmlns:p="/home/jruizr/escritorio/XML/preferencia.xml">
+        <publico>
+            <norte.nombre>Antonio</norte.nombre>
+            <norte.nombre>Paco</norte.nombre>
+            <sur.nombre>Rafa</sur.nombre>
+            <sur.nombre>Manuel</sur.nombre>
+            <fondo.nombre>José Ramón</fondo.nombre>
+            <fondo.nombre>Luis</fondo.nombre>
+            <preferencia.nombre>Natalia</preferencia.nombre>
+            <preferencia.nombre>Bárbara</preferencia.nombre>
+        </publico>
+    </root>

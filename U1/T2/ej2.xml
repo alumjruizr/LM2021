@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="Sí">
+    <Titulo>El Señor de los Anillos</Titulo>
+    <Seccion>Fantasía</Seccion>
+    <Subseccion>Fantasía Medieval</Subseccion>
+    <Contenido> La Comunidad del Anillo
+        <Capitulo materia="XML">12
+            <Tema>Hobbits</Tema>
+        </Capitulo>
+        <Capitulo>34</Capitulo>
+    </Contenido>
+    <Contenido> Las Dos Torres
+        <Capitulo materia="HTML">65
+            <Tema>Isengard</Tema>
+        </Capitulo>
+        <Separacion>En dos</Separacion>
+    </Contenido>
+    <Copyright>Tolkien Signature</Copyright>
+</Libro>

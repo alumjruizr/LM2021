@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directorio>
+    <edificios>
+        <edificio direccion="C/Geranio">
+            <metroscuadrados>552m</metroscuadrados>
+            <numero_plantas>3</numero_plantas>
+            <plantas>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+        <edificio direccion="C/Gladiolo">
+            <metroscuadrados>518m</metroscuadrados>
+            <numero_plantas>3</numero_plantas>
+            <plantas>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+        <edificio direccion="C/Amapola">
+            <metroscuadrados>628m</metroscuadrados>
+            <numero_plantas>3</numero_plantas>
+            <plantas>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+                <planta>
+                    <empleados>
+                        <empleado>
+                            <puesto>Jefe de proyecto</puesto>
+                            <datospersonales>José Luis</datospersonales>
+                            <extensiontlf>+01</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Analista</puesto>
+                            <datospersonales>María Antonia</datospersonales>
+                            <extensiontlf>+02</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Senior</puesto>
+                            <datospersonales>Andrés</datospersonales>
+                            <extensiontlf>+03</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Programador Junior</puesto>
+                            <datospersonales>Luisa</datospersonales>
+                            <extensiontlf>+04</extensiontlf>
+                        </empleado>
+                        <empleado>
+                            <puesto>Estudiante de prácticas</puesto>
+                            <datospersonales>Eva</datospersonales>
+                            <extensiontlf>+05</extensiontlf>
+                        </empleado>
+                    </empleados>
+                </planta>
+            </plantas>
+        </edificio>
+    </edificios>
+</directorio>

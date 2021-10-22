@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+    <nodos>
+        <nodo1>
+            <maquinas>
+                <maquina1 nombre="Javier" so="Windows7" ip="123.456.7.8"></maquina1>
+                <maquina2 nombre="Juan" so="Windows7" ip="546.267.8.9"></maquina2>
+                <maquina3 nombre="Manuel" so="Windows10" ip="546.369.2.3"></maquina3>
+            </maquinas>
+        </nodo1>
+        <nodo2>
+            <maquinas>
+                <maquina1 nombre="María" so="Mac0s" ip="236.369.1.5" mac="00:1B:44:11:3A:B7"></maquina1>
+                <maquina2 nombre="Luisa" so="Ubuntu" ip="123.458.7.5"></maquina2>
+                <maquina3 nombre="Natalia" so="Windows7" ip="198.456.7.8"></maquina3>
+            </maquinas>    
+        </nodo2>
+        <nodo3>
+            <maquinas>
+                <maquina1 nombre="Rafael" so="Windows7" ip="123.456.1.1"></maquina1>
+                <maquina2 nombre="Alberto" so="Windows10" ip="555.333.9.8"></maquina2>
+                <maquina3 nombre="Anastasia" so="Linux" ip="888.456.1.8"></maquina3>
+            </maquinas>
+        </nodo3>
+        <nodo4>
+            <maquinas>
+                <maquina1 nombre="José Manuel" so="Windows7" ip="193.451.1.8"></maquina1>
+                <maquina2 nombre="Eric" so="Windows7" ip="999.999.9.9"></maquina2>
+                <maquina3 nombre="Bárbara" so="Windows7" ip="888.898.9.8"></maquina3>
+            </maquinas>
+        </nodo4>
+        <nodo5>
+            <maquinas>
+                <maquina1 nombre="Paqui" so="WindowsXP" ip="123.111.1.1"></maquina1>
+                <maquina2 nombre="Fede" so="Windows7" ip="123.411.2.2" mac="00:1B:44:12:3A:B7"></maquina2>
+                <maquina3 nombre="Jorge" so="Windows7" ip="111.111.2.2" mac="00:1B:44:13:3A:B7"></maquina3>
+            </maquinas>
+        </nodo5>
+    </nodos>
+</cluster>

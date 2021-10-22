@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "carta.dtd">
+<note>
+    <to>Javier</to>
+    <from>Jesús</from>
+    <heading>Recordatorio</heading>
+    <body>Me debes 5 euros</body>
+</note>
