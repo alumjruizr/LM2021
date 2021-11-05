@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="background-color: rgb(185, 153, 206);">
+            <table>
+                    <legend style="border-style: groove; background-color: white;">
+                        Datos Personales
+                    </legend>
+                <tr>
+                    <td><label for="Nombre">Nombre:</label></td>
+                    <td><label for="Apellidos">Apellidos:</label></td>
+                    <td><label for="DNI">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Nombre" id="Nombre"></td>
+                    <td><input type="text" name="Apelidos" id="Apellidos"></td>
+                    <td><input type="text" name="DNI" id="DNI"></td>
+                </tr>
+                <tr>
+                    <td><label for="Localidad">Localidad Nacimiento:</label></td>
+                    <td><label for="Provincia">Provincia:</label></td>
+                    <td><label for="FechaNacimiento">Fecha de Nacimiento:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Localidad" id="Localidad"></td>
+                    <td>
+                        <select id="provincia" name="provincia">
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Jaén">Jaen</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="date" id="FechaNacimiento" name="FechaNacimiento">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 80%;"><label for="Direccion">Dirección:</label></td>
+                    <td><label for="CodigoPostal">Código Postal:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 80%;"><input type="text" id="Direccion"></td>
+                    <td><input type="number" id="CodigoPostal"></td>
+                </tr>
+            </table>
+        </fieldset>
+            <fieldset>
+                <ul style="list-style-type:none">
+                    <li><input type="radio" name="Direct" id="Direct">
+                        <label for="Direct">Direct</label></li>
+                    <ul style="list-style-type:none">
+                        <li><input type="radio" name="BachLOGSE" id="BachLOGSE">
+                            <label for="BachLOGSE">Bachillerato LOGSE. Modalidad</label>
+                        <li><input type="radio" name="BachE" id="BachE">
+                            <label for="BachE">Bachillerato Experimental</label></li>
+                        <li><input type="radio" name="COU" id="COU">
+                            <label for="COU">COU.Opción</label><input type="text" name="COU" id="COU"></li>
+                        <li><input type="radio" name="FP2" id="FP2">
+                            <label for="FP2">FP2</label></li>
+                        <li><input type="radio" name="Otros" id="Otros">
+                            <label for="Otros">Otros (Especifique)</label><input type="text" name="Otros" id="Otros"></li>
+                    </ul style="list-style-type:none">
+                    <li><input type="radio" name="PruebaLibre" id="PruebaLibre">
+                        <label for="PruebaLibre">Prueba Libre</label></li>
+                </ul>
+            </fieldset>
+    <input type="submit">
+    </form>
+</body>
+
+</html>
