@@ -14,9 +14,9 @@
     <form action="">
         <fieldset style="background-color: rgb(185, 153, 206);">
             <table>
-                    <legend style="border-style: groove; background-color: white;">
-                        Datos Personales
-                    </legend>
+                <legend style="border-style: groove; background-color: white;">
+                    Datos Personales
+                </legend>
                 <tr>
                     <td><label for="Nombre">Nombre:</label></td>
                     <td><label for="Apellidos">Apellidos:</label></td>
@@ -51,32 +51,60 @@
                     <td><label for="CodigoPostal">Código Postal:</label></td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="width: 80%;"><input type="text" id="Direccion"></td>
+                    <td colspan="2"><input type="text" style="width: 350px;" id="Direccion"></td>
                     <td><input type="number" id="CodigoPostal"></td>
                 </tr>
             </table>
         </fieldset>
-            <fieldset>
+        <fieldset style="background-color: rgb(202, 160, 154);">
+            <legend style="border-style: groove; background-color: white;">Forma de Acceso</legend>
+            <ul style="list-style-type:none">
+                <li><input type="radio" name="Direct" id="Direct">
+                    <label for="Direct">Direct</label></li>
                 <ul style="list-style-type:none">
-                    <li><input type="radio" name="Direct" id="Direct">
-                        <label for="Direct">Direct</label></li>
-                    <ul style="list-style-type:none">
-                        <li><input type="radio" name="BachLOGSE" id="BachLOGSE">
-                            <label for="BachLOGSE">Bachillerato LOGSE. Modalidad</label>
-                        <li><input type="radio" name="BachE" id="BachE">
-                            <label for="BachE">Bachillerato Experimental</label></li>
-                        <li><input type="radio" name="COU" id="COU">
-                            <label for="COU">COU.Opción</label><input type="text" name="COU" id="COU"></li>
-                        <li><input type="radio" name="FP2" id="FP2">
-                            <label for="FP2">FP2</label></li>
-                        <li><input type="radio" name="Otros" id="Otros">
-                            <label for="Otros">Otros (Especifique)</label><input type="text" name="Otros" id="Otros"></li>
-                    </ul style="list-style-type:none">
-                    <li><input type="radio" name="PruebaLibre" id="PruebaLibre">
-                        <label for="PruebaLibre">Prueba Libre</label></li>
-                </ul>
-            </fieldset>
-    <input type="submit">
+                    <li><input type="radio" name="BachLOGSE" id="BachLOGSE">
+                        <label for="BachLOGSE">Bachillerato LOGSE. Modalidad</label>
+                        <input type="text" name="BachLOGSE" id="BachLOGSE">
+                    <li><input type="radio" name="BachE" id="BachE">
+                        <label for="BachE">Bachillerato Experimental</label></li>
+                    <li><input type="radio" name="COU" id="COU">
+                        <label for="COU">COU.Opción</label>
+                        <input type="text" name="COU" id="COU"></li>
+                    <li><input type="radio" name="FP2" id="FP2">
+                        <label for="FP2">FP2</label></li>
+                    <li><input type="radio" name="Otros" id="Otros">
+                        <label for="Otros">Otros (Especifique)</label>
+                        <input type="text" name="Otros" id="Otros"></li>
+                </ul style="list-style-type:none">
+                <li><input type="radio" name="PruebaLibre" id="PruebaLibre">
+                    <label for="PruebaLibre">Prueba Libre</label></li>
+            </ul>
+        </fieldset>
+        <fieldset style="background-color: rgb(223, 87, 24);">
+            <legend style="border-style: groove; background-color: white;">Documentos Adjuntados</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" name="FotoDNI" id="FotoDNI">
+                        <label for="FotoDNI">Fotocopia DNI</label>
+                    </td>
+                    <td>
+                        <input type="button" name="Certificado" id="Certificado">
+                        <label for="Certificado">Certificado Académico</label></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="OtrosDoc" id="OtrosDoc">
+                        <label for="OtrosDoc">Otros documentos: especifique</label></td>
+                    </td>
+                    <td>
+                        <input type="text" name="OtrosDoc" id="OtrosDoc">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit">
     </form>
 </body>
 
