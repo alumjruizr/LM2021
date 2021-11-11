@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ej4.html</title>
 </head>
+
 <body>
-    
+    <form action="">
+        <fieldset
+            style="background-color: blanchedalmond; border-color: blueviolet; caret-color: rgb(137, 106, 167); width: 500px  ;">
+            <legend style="background-color: rgb(137, 106, 167);border-color: rgb(137, 106, 167); border-style: solid;">
+                Leave form
+            </legend>
+            <table>
+                <tr>
+                    <td style="width: 300px;"><b><label for="Email">Employee Email</label></b></td>
+                    <td><input type="text" name="Email" id="Email"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="ID">Employee ID</label></b></td>
+                    <td><input type="number" name="ID" id="ID"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="Name">Employee name</label></b></td>
+                    <td><input type="text" name="Name" id="Name"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="Designation">Designation</label></b></td>
+                    <td><input type="text" name="Designation" id="Designation"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="Type">Leave Type</label></b></td>
+                    <td>
+                        <select id="Type" name="Type">
+                            <option value="blank"></option>
+                            <option value="puerta">Por la puerta</option>
+                            <option value="ventana">Por la ventana</option>
+                            <option value="incendios">Por la salida de incendios</option>
+                            <option value="despedirse">Sin despedirse</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><label for="From">From</label></b></td>
+                    <td><input type="date" id="From" name="From"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="To">To</label></b></td>
+                    <td><input type="date" id="To" name="To"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="Days">N of Days</label></b></td>
+                    <td><input type="number" name="Days" id="Days"></td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: 0pt;"><b><label for="Reason">Reason</label></b></td>
+                    <td><textarea name="Reason" id="Reason" cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+            <input style="" type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
 </body>
+
 </html>
