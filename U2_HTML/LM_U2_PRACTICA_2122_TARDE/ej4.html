@@ -12,9 +12,17 @@
     <form action="">
         <fieldset
             style="background-color: blanchedalmond; border-color: rgb(137, 106, 167); caret-color: rgb(137, 106, 167); width: 500px  ;">
-            <legend style="background-color: rgb(137, 106, 167);border-color: rgb(137, 106, 167); border-style: solid;">
-                Leave form
-            </legend>
+            <b><legend style="background-color: rgb(137, 106, 167);border-color: rgb(137, 106, 167); border-style: solid;">
+                <table>
+                        <tr><te>Leave form</te></tr>
+                        <tr><select style="background-color: rgb(137, 106, 167);" id="Type" name="Type">
+                            <option value="actions">More actions</option>
+                            <option value="Aquí">Aquí</option>
+                            <option value="no">no</option>
+                            <option value="hay">hay</option>
+                            <option value="nada">nada</option></tr>
+                </table>
+            </legend></b>
             <table>
                 <tr>
                     <td style="width: 300px;"><b><label for="Email">Employee Email</label></b></td>
@@ -39,10 +47,10 @@
                     <td><input type="text" name="Designation" id="Designation"></td>
                 </tr>
                 <tr>
-                    <td><b><label for="Type">Leave Type</label></b></td>
+                    <td><b><label for="Type">Leave Type *</label></b></td>
                     <td>
-                        <select id="Type" name="Type">
-                            <option value="blank"></option>
+                        <select id="Type" name="Type" required>
+                            <option value="">Elige una forma</option>
                             <option value="puerta">Por la puerta</option>
                             <option value="ventana">Por la ventana</option>
                             <option value="incendios">Por la salida de incendios</option>
@@ -51,12 +59,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><b><label for="From">From</label></b></td>
-                    <td><input type="date" id="From" name="From"></td>
+                    <td><b><label for="From">From *</label></b></td>
+                    <td><input type="date" id="From" name="From" required></td>
                 </tr>
                 <tr>
-                    <td><b><label for="To">To</label></b></td>
-                    <td><input type="date" id="To" name="To"></td>
+                    <td><b><label for="To">To *</label></b></td>
+                    <td><input type="date" id="To" name="To" required></td>
                 </tr>
                 <tr>
                     <td><b><label for="Days">N of Days</label></b></td>
@@ -66,12 +74,14 @@
                     <td style="vertical-align: 0pt;"><b><label for="Reason">Reason</label></b></td>
                     <td><textarea name="Reason" id="Reason" cols="30" rows="10"></textarea></td>
                 </tr>
+                <tr>
+                    <th colspan="3" style="text-align: center;">
+                        <input style="font-size: 15px; background-color: rgb(137, 106, 167)" type="submit">
+                        <input style="font-size: 15px; background-color: rgb(137, 106, 167)" type="reset">
+                    </th>
+                </tr>
             </table>
 
-        </fieldset>
-        <fieldset style="background-color: blanchedalmond; border-color: blueviolet; caret-color: rgb(137, 106, 167); width: 500px  ;">
-            <input type="submit">
-            <input type="reset">
         </fieldset>
     </form>
 </body>
