@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej3</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!--Hemos usado <th> para destacar la cabecera. 
+                Lo haremos más adelante también con el pie. 
+                El atributo style nos permite cambiar el color de la celda.-->
+            <th colspan="3" style="background-color: rgb(124, 199, 13);">CABECERA: DRAGON BALL SUPER</th>
+        </tr>
+        <tr>
+            <!--Hemos usado text-align para colocar el texto a la izquierda de la celda.-->
+            <td colspan="2" style="text-align: left;">Castilleja de la Cuesta (Sevilla)</td>
+            <td>
+                <ul>
+                    <li>Libros</li>
+                    <li>Revista</li>
+                    <li>Prensa</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <!--Las imágenes han sido redimensionadas con los atributos width y height.-->
+            <td><img width="150" height="300" src="Imagenes_db/goku.jpg" alt="goku"></td>
+            <td><img width="500" height="300" src="Imagenes_db/goku vs moro.jpg" alt="gokuvsmoro"></td>
+            <td><img width="300" height="300" src="Imagenes_db/vegeta.PNG" alt="vegeta"></td>
+
+        </tr>
+        <tr>
+            <td>
+                <!--Con las etiquetas <label> y <select> hemos creado la lista
+                    de productos que se pueden pedir. -->
+                <label for="EnvíoGoku">Cantidad</label>
+                <select id="EnvíoGoku" name="EnvíoGoku">
+                    <option value="blank"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+            </td>
+            <td>
+                <label for="EnvíoGokuvsMoro">Cantidad</label>
+                <select id="EnvíoGokuvsMoro" name="EnvíoGokuvsMoro">
+                    <option value="blank"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+            </td>
+            <td>
+                <label for="EnvíoVegeta">Cantidad</label>
+                <select id="EnvíoVegeta" name="EnvíoVegeta">
+                    <option value="blank"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+            </td>
+        </tr>
+        <tr>
+            <!--El botón submit que mandaría la información al almacén de datos.-->
+            <td colspan="3" style="text-align: right;"><button type="submit">Enviar Consulta</button></td>
+        </tr>
+        <tr>
+            <th colspan="3" style="background-color: rgb(57, 57, 151);">
+                PIE:TUS MEJORES OFERTAS
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+</head>
+
+<body>
+    <form action="">
+        <!--Creamos un fieldset principal que englobe todo el formulario.
+            Dentro crearemos tres fieldset más para ordenar las secciones.-->
+        <fieldset style="border-style: solid; width: 500px; border: 3px solid blue;">
+            <h1><b>Reservation request</b></h1>
+            <fieldset>
+                <legend style="color: blue;">
+                    <b>General Information</b>
+                </legend>
+                <!--Dentro de cada fieldset habrá una tabla sin bordes para ordenar y
+                    cuadricular los campos, tanto <input> como <label>.
+                    El atributo padding nos sirve para dar espacio dentro de las
+                    celdas de las tablas.-->
+                <table style="padding: 4pt;">
+                    <tr>
+                        <!--Tipo de dato "date" para las fechas.-->
+                        <td><label for="Arrival">Arrival Date</label></td>
+                        <td><input type="date" id="Arrival" name="Arrival"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Nights">Nights</label></td>
+                        <td><input type="number" name="Nights" id="Nights">
+                    </tr>
+                    <tr>
+                        <td><label for="Adults">Adults</label>
+                        </td>
+                        <td> <select id="Adults" name="Adults">
+                                <option value="blank"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Children">Children</label>
+                        </td>
+                        <td>
+                            <select id="Children" name="Children    ">
+                                <option value="blank"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;">
+                    <b>Preferences</b>
+                </legend>
+                <table style="padding: 4pt;">
+                    <tr>
+                        <!--Tipo de <input> "radio" para la selección.-->
+                        <td>Room type:</td>
+                        <td><input type="radio" id="Room_type" name="Standard" value="Standard">
+                            <label for="Standard">Standard</label>
+                        </td>
+                        <td><input type="radio" id="Room_type" name="Business" value="Business">
+                            <label for="Business">Business</label>
+                        </td>
+                        <td><input type="radio" id="Room_type" name="Suite" value="Suite">
+                            <label for="Suite">Suite</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bed type</td>
+                        <td>
+                            <input type="radio" id="Bed_type" name="King" value="King">
+                            <label for="King">King</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="Room_type" name="Double" value="Double">
+                            <label for="Double">Double Double</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Smoking"> Smoking</label>
+                            <input style="position: fixed; text-align: left;" type="button" name="Smoking" id="Smoking">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;">
+                    <b>Contact Information</b>
+                </legend>
+                <table style="padding: 4pt;">
+                    <tr>
+                        <!--El atributo required para obligar a rellenar los campos.-->
+                        <td><label for="Nombre">Nombre</label></td>
+                        <td><input type="text" name="Nombre" required></td>
+                    </tr>
+                    <tr>
+                        <!--Tipo de <input> email para los correos electrónicos.-->
+                        <td><label for="Email">Email</label></td>
+                        <td><input type="email" name="Email"></td>
+                    </tr>
+                    <tr>
+                        <!--Tipo de <input> tel para los teléfonos.-->
+                        <td><label for="Phone">Phone</label></td>
+                        <td><input type="tel" name="Phone"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <table style="padding: 6pt;">
+                <tr>
+                    <!--Los botones "submit" y "reset" irán dentro de otra tabla para
+                        poder ser ordenados.-->
+                    <td><input style="width: 5cm;" type="submit"></td>
+                    <td><input style="width: 5cm;" type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
