@@ -11,14 +11,20 @@
 <body>
     <form action="">
         <fieldset
-            style="background-color: blanchedalmond; border-color: blueviolet; caret-color: rgb(137, 106, 167); width: 500px  ;">
+            style="background-color: blanchedalmond; border-color: rgb(137, 106, 167); caret-color: rgb(137, 106, 167); width: 500px  ;">
             <legend style="background-color: rgb(137, 106, 167);border-color: rgb(137, 106, 167); border-style: solid;">
                 Leave form
             </legend>
             <table>
                 <tr>
                     <td style="width: 300px;"><b><label for="Email">Employee Email</label></b></td>
-                    <td><input type="text" name="Email" id="Email"></td>
+                    <td>                        <select id="Type" name="Type">
+                        <option value="correo1">jaimito@gmail.com</option>
+                        <option value="correo2">jorgito@gmail.com</option>
+                        <option value="correo3">juanito@gmail.com</option>
+                        <option value="correo4">gilito@gmail.com</option>
+                        <option value="correo5">donaldtheduck@gmail.com</option>
+                    </select></td>
                 </tr>
                 <tr>
                     <td><b><label for="ID">Employee ID</label></b></td>
@@ -61,7 +67,10 @@
                     <td><textarea name="Reason" id="Reason" cols="30" rows="10"></textarea></td>
                 </tr>
             </table>
-            <input style="" type="submit">
+
+        </fieldset>
+        <fieldset style="background-color: blanchedalmond; border-color: blueviolet; caret-color: rgb(137, 106, 167); width: 500px  ;">
+            <input type="submit">
             <input type="reset">
         </fieldset>
     </form>
