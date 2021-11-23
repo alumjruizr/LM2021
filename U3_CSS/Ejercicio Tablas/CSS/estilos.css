@@ -1,0 +1,25 @@
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+.rojo {
+    background-color: rgb(185, 1, 1);
+    color: white;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.letrasrojas {
+    color: red;
+}
+
+.gris {
+    background-color: grey;
+}
+
+.aceite {
+background-color: olive;
+}

@@ -1,0 +1,48 @@
+th, td {
+border-style: double;
+border-radius: 10px;
+text-align: center;
+font-family: "Audiowide", sans-serif;
+font-size: 100%;
+padding: 10px;
+
+}
+
+
+
+#vacio {
+    background-color:transparent;
+    border-style: none;
+    border-radius: 0%;
+}
+
+.dia {
+    background-color: rosybrown;
+}
+.hora {
+    background-color: rgb(40, 143, 143);
+} 
+.Prog {
+    background-color: rgb(7, 69, 161);
+}
+.Sistemas {
+    background-color: slateblue;
+}
+.FOL {
+    background-color: yellow;
+}
+.ED {
+    background-color: rgb(40, 207, 54);
+}
+.BBDD {
+    background-color: red;
+}
+.LM {
+    background-color: hotpink;
+}
+.RECREO{
+    background-color: dodgerblue;
+}
+
+#grad {
+    background-image: linear-gradient(red, yellow);}

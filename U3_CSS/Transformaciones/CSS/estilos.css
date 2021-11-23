@@ -1,0 +1,15 @@
+.P {
+    padding: 100px;
+    animation-duration: 0.5s;
+    animation-name: zoom-pulse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom-pulse {
+    0% { transform: rotate(3deg) scale(2); }
+    17% { transform: rotate(0deg) scale(1); }
+    34% { transform: rotate(3deg) scale(2); }
+    51% { transform: rotate(0deg) scale(1); }
+    68% { transform: rotate(3deg) scale(2);}
+    100% { transform: rotate(0deg) scale(1); }
+}
