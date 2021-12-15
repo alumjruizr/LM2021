@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Club>
+    <Member>
+        <MemberName>
+            Chris Smith
+        </MemberName>
+        <YearsOfMemebership>
+            4
+        </YearsOfMemebership>
+    </Member>
+    <Member>
+        <MemberName>
+            Judi Zimmerman
+        </MemberName>
+        <YearsOfMemebership>
+            5
+        </YearsOfMemebership>
+    </Member>
+    <Member>
+        <MemberName>
+            Michael Calder
+        </MemberName>
+        <YearsOfMemebership>
+            3
+        </YearsOfMemebership>
+    </Member>
+</Club>
