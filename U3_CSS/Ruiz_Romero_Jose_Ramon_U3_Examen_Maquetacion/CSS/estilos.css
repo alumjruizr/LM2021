@@ -1,0 +1,174 @@
+.layout {
+    align-items: center;
+}
+
+.cabecera {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    width: 1000px;
+}
+
+.cabecera>div>div>h1 {
+    color: black;
+    border-right-style: solid;
+    border-right-color: grey;
+    border-right-width: 1px;
+}
+
+.cabecera>div>div>h1>span {
+    color: green;
+    font-family: monospace;
+}
+
+.cabecera>div>div>p {
+    color: grey;
+    padding-left: 6px;
+}
+
+.cabecera>div {
+    display: flex;
+}
+
+.cabecera ul {
+    display: flex;
+    padding-left: 340px;
+    padding-bottom: 0px;
+}
+
+.cabecera div > ul > li {
+    padding-right: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;    
+}
+
+
+.lista {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.lista ul {
+    display: flex;
+    padding-right: 100px;
+    list-style-type: none;
+    color: white;
+}
+
+.lista ul > a > li {
+    padding-left: 10px;
+}
+
+.lista ul > a > li {
+    border-right-width: 1px;
+    border-right-style: ridge;
+    padding-right: 10px;
+}
+
+.lista :link {
+    color: white;
+    text-decoration-line: none;
+}
+
+.lista :hover {
+    color: blue;
+    text-decoration-line: none;
+}
+
+.lista :visited {
+    color: white;
+    text-decoration-line: none;
+}
+
+.lista form {
+    display: flex;
+    height: 15px;
+}
+
+.lista input {
+    background-color: rgb(36, 35, 35);
+    border-style: none;
+    padding-left: 250px;
+}
+
+.main {
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.main img {
+    width: 1000px;
+    height: 600px;
+    box-align: end;
+}
+
+.main div {
+    color: white;
+    padding: 10px;
+}
+
+.main>div>h2 {
+    width: 300px;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.main>div>p {
+    width: 300px;
+    text-align: justify;
+    background-color: gray;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.main>div>a {
+    inset-block-end: 10pt;
+    font-weight: bolder;
+}
+
+.main>div>a>p {
+    background-color: gray;
+    color: white;
+    width: 10px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.main>div>a :link {
+    color: white;
+    font-weight: bolder;
+}
+
+.main>div>a :hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+.footer {
+    align-items: center;
+    margin-top: 1px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer div {
+    display: inline-flex;
+    image-resolution: 10px/10px;
+}
+
+.footer div>div {
+    display: inline-block;
+}
